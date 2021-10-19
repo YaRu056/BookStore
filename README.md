@@ -23,18 +23,36 @@
 >## 成果說明
 
   一開始進入登入畫面，可以選擇按鈕1.註冊紐或是2.登入紐，若沒有帳密選擇註冊紐，註冊成功以後會將資料寫入資料庫MySql(xampp模擬)，註冊成功後關閉註冊的視窗，回到登入的頁面，若輸入的帳密在資料庫搜尋符合資料，便會成功登入，進到本系統後右上角會記錄你的ID左邊有菜單欄可供選擇功能(目前提供的功能有Home,Sell Book,Shopping List)，選擇功能會呈現相對應的畫面。
+  
+  * Login & Register:
+  
+    ![1](https://user-images.githubusercontent.com/82867224/137904905-37b78d2f-cc24-4177-a5f1-438eecd5e079.jpg)
+    
+    ![2](https://user-images.githubusercontent.com/82867224/137904969-a375da63-6f42-4026-a333-245386a1cf4d.jpg)
 
   * Home(買書):
   
     搜尋欄位輸入你想購買的書籍名稱，下方會呈現搜尋結果，點選想買的書籍再點選order按鈕，下方會呈現已購買的書籍資料以及目前的消費金額，若在賣家未處理訂單前皆可取消，最後點選Sure按鈕，便可在Shopping List中找到你所訂購的書籍。買家的帳號為登入的ID。
-  
+    
+    ![6](https://user-images.githubusercontent.com/82867224/137905817-d5b4c68c-74de-4d8b-90a2-d4986d6a84ca.jpg)
+    
+    ![7](https://user-images.githubusercontent.com/82867224/137905838-bf17b3fd-3a8a-4c95-b086-55f6ef4c09ca.jpg)
+    
+    ![8](https://user-images.githubusercontent.com/82867224/137905857-3dce26c1-fd6c-482c-80c5-9729640614b1.jpg) 
+
   * Shopping List(購買清單):
   
     可看到所購賣的書籍，若訂單未處理可點選cancel按鈕，來取消訂單。
+    ![9](https://user-images.githubusercontent.com/82867224/137905886-ccf118ae-cea6-4151-9e3f-7b22b561b109.jpg)
+
   
   * Sell Books(販賣書籍):
   
     輸入書籍資料以及圖片後，按下+Add按鈕便會寫進記憶體中，下方會呈現新增的資料，確定以後便可按下Update的按鈕寫入xml檔。若有買家帳號可以藉由右下方的下拉式選單來更改訂單的處理狀況。賣家的帳號和賣家名稱為註冊時的設定。
+    ![3](https://user-images.githubusercontent.com/82867224/137905032-047d5be9-be97-4905-be86-480c42214356.jpg)
+    ![4](https://user-images.githubusercontent.com/82867224/137905062-1d5f2b6c-28fa-465d-9ca2-8f1aa03a6f08.jpg)
+    ![5](https://user-images.githubusercontent.com/82867224/137905093-88be1571-a2b8-45a1-a562-7f4bdae719be.jpg) 
+
 
   * 資料庫環境:
   
